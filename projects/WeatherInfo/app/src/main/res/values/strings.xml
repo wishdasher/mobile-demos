@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WeatherInfo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="add_city_text">Add City</string>
+    <string name="add_text">Add</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="developer_msg">Developed by Sophie Mori</string>
+    <string name="lat_label">Latitude:\u0020\u0020\u0020\u0020</string>
+    <string name="long_label">Longitude:\u0020\u0020\u0020</string>
+    <string name="desc_label">Description:\u0020</string>
+    <string name="temp_label">Temperature:\u0020</string>
+    <string name="min_label">Min:\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="max_label">Max:\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="humidity_label">Humidity:\u0020\u0020\u0020\u0020</string>
+    <string name="pressure_label">Pressure:\u0020\u0020\u0020\u0020</string>
+    <string name="wind_label">Wind speed:\u0020\u0020</string>
+    <string name="empty_err_msg">City name cannot be empty</string>
+    <string name="metric">METRIC</string>
+    <string name="imperial">IMPERIAL</string>
+    <string name="sunrise_label">Sunrise:\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="sunset_label">Sunset:\u0020\u0020\u0020\u0020\u0020\u0020</string>
+</resources>

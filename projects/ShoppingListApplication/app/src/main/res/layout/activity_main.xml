@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ksmori.hu.ait.shoppinglistapplication.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/toolbarBackground"
+        app:titleTextColor="@color/toolbarText"
+        app:subtitleTextColor="@color/toolbarText"/>
+
+    <CheckBox
+        android:id="@+id/showPurchasedToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_purchased_items"
+        android:checked="true" />
+
+    <include layout="@layout/content_main" />
+
+</LinearLayout>

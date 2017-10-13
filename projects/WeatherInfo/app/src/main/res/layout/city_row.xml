@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvCityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:background="@color/colorWhite"
+        android:layout_width="@dimen/btn_box_size"
+        android:layout_height="@dimen/btn_box_size"
+        android:text="X"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

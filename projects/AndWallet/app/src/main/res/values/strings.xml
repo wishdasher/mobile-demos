@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndWallet</string>
+    <string name="amount">Amount</string>
+    <string name="line_item_title">Line item title</string>
+    <string name="save">SAVE</string>
+    <string name="income">INCOME</string>
+    <string name="outcome">OUTCOME</string>
+    <string name="delete">DELETE ALL</string>
+    <string name="balance">"Balance: "</string>
+    <string name="summary">Summary</string>
+    <string name="line_items">Line Items</string>
+    <string name="minus">-</string>
+    <string name="incomeLabel">"Income: "</string>
+    <string name="outcomeLabel">"Outcome: "</string>
+    <string name="balanceLabel">"Balance: "</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="tooManyMinesMsg">There must be more cells than mines on the board.</string>
+    <string name="sizeTooLargeMsg">The grid size is too large for your screen.</string>
+    <string name="loseMsg">YOU LOSE</string>
+    <string name="winMsg">YOU WIN</string>
+    <string name="digToggle">DIG MODE</string>
+    <string name="flagToggle">FLAG MODE</string>
+    <string name="restartButton">Restart</string>
+    <string name="welcomeMsg">Welcome to Minesweeper!</string>
+    <string name="sizeHelp">Desired board length size</string>
+    <string name="numMinesHelp">Desired number of mines</string>
+    <string name="startButton">Start game</string>
+    <string name="minesLeftLabel">"Mines left: "</string>
+    <string name="badPuzzleMsg">Please enter parameters for a valid puzzle.</string>
+</resources>

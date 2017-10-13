@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/spacey"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="ksmori.hu.ait.andwallet.MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AndWallet Account Summary"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/summaryTitle" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View android:id="@+id/spacer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/incomeSummary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/spacer"
+            android:padding="@dimen/fieldPadding"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/summaryText"/>
+
+        <TextView
+            android:id="@+id/outcomeSummary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignLeft="@+id/spacer"
+            android:padding="@dimen/fieldPadding"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/summaryText"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/balanceSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/summaryText"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
